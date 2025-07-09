@@ -22,7 +22,7 @@ Solves a vehicle loading problem using Integer Linear Programming, taking into a
   - Vehicle weight limit
   - Item quantity limits
   - Incompatible item pairs cannot be shipped together
-  - Displays the optimal solution with selected items and total weight
+- Displays the optimal solution with selected items and total weight
 ### Perfect for simulating realistic logistics problems involving constrained selection and value optimization.
 
 ---
@@ -36,4 +36,5 @@ Uses a continuous linear programming model to minimize shipping costs for distri
 - Constraints:
   - Each client receives the exact required quantity per product
   - Factories do not exceed their available inventory
+- Displays the quantity to be shipped from each factory to each client for each product, along with the optimal distribution cost.
 ### Outputs the optimal shipping plan by factory, client, and product, and the total cost
