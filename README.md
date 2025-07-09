@@ -1,6 +1,5 @@
 > 📘 This README is available in: [🇺🇸 English](README.en.md) | [🇧🇷 Português](README.md)
 
-
 ## 🔐 RSA Encryption Example
 Implementa o algoritmo de criptografia RSA em Python, incluindo geração de chaves, encriptação de mensagens com chaves públicas e decriptação com chaves privadas.
 ### Destaques:
@@ -23,6 +22,7 @@ Resolve um problema de carga de veículo utilizando programação linear inteira
   - Capacidade máxima de peso do veículo
   - Quantidade limitada por item
   - Incompatibilidades entre pares de produtos
+- Retorna a solução ótima com os itens selecionados e o peso total
 ### Retorno da solução ótima com lista dos itens selecionados e peso total carregado
 
 ---
@@ -36,5 +36,5 @@ Executa um modelo de programação linear contínua para minimizar o custo de en
 - Restrições:
   - Cada cliente recebe exatamente o que precisa de cada produto
   - Fábricas não excedem o próprio estoque disponível
-  - Retorna a quantidade a ser enviada por fábrica, cliente e produto, junto ao custo ótimo de distribuição
+- Retorna a quantidade a ser enviada por fábrica, cliente e produto, junto ao custo ótimo de distribuição
 ### Ideal para simular problemas reais de logística com múltiplas origens e destinos.
